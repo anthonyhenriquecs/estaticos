@@ -6,6 +6,7 @@ class Pessoa:
         self.nome = nome
         self.idade = idade
 
+
     @classmethod
     def criar_de_data_nascimento(cls, ano, mes, dia, nome):
         idade = 2022 - ano
